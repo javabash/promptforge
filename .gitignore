@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Obsidian-specific ignores
+.obsidian/workspace.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+.obsidian/themes/*
+
+# PromptForge-specific  
+.env
+system/.env
+logs/
+*.log
+
+
